@@ -15,7 +15,7 @@ int main(){
                 cout<<"*"<<"\t";
             }
         nsp--;
-        nst=nst+2;
+        nst++;
         cout<<endl;
     }
 
