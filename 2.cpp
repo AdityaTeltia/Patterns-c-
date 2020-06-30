@@ -3,7 +3,9 @@ using namespace std;
 int main(){
     int n;
     cin>>n;
-    for(int nst=n;nst >0; nst-- ){
+    int k=1;
+    for(int nst=n;nst <=1; nst-- ){
+        cout<<k+1;
         int cst=1;
         while(cst<=nst){
             cout<<"*"<<"\t";
